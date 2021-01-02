@@ -1,0 +1,20 @@
+<html><head><title>Informacion del Navegador</title></head><body bgcolor="#C0C0C0"><h1 align="center">Informacion del Navegador</h1><script>
+var s = "<b>Navegador</b><br>User Agent: " + navigator.userAgent + "<br>";    
+s+="AppCodeName: " + navigator.appCodeName + "<br>";
+s+="AppVersion: " + navigator.appVersion + "<br>";
+s+="CookieEnabled: " + navigator.cookieEnabled + "<br>";
+s+="Language: " + navigator.language + "<br>";
+s+="OsCpu: " + navigator.oscpu + "<br>";
+s+="Platform: " + navigator.platform + "<br>";
+s+="Product: " + navigator.product + "<br>";
+s+="ProductSub: " + navigator.productSub + "<br>";
+s+="Vendor: " + navigator.vendor + "<br>";
+s+="Java Disponible: " + (navigator.javaEnabled() ? "Si" : "No") + "<br><br>";
+s+="<b>Location</b><br>" + location.host + "<br>";
+s+="Hostname: " + location.hostname + "<br>";
+s+="Href: " + location.href + "<br>";
+s+="PathName: " + location.pathname + "<br>";
+s+="Port: " + location.port + "<br>";
+s+="Protocol: " + location.protocol + "<br>";
+document.write(s);
+</script></body></html>
